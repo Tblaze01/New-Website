@@ -405,8 +405,9 @@
     text-decoration: none;
 }
 .no-style{
-    list-style: none;
+    list-style:none;
 }
+
 .justifier{
     justify-content: space-between;
 }
@@ -512,6 +513,11 @@ header section p a{
 }
 .m-bottom-2{
     margin-bottom: 2rem;
+}
+.m-bottom-2:hover{
+    background: black;
+    color: white;
+    transition: -3s ease-in;
 }
 .m-bottom-1-5{
     margin-bottom: 1.5rem;
